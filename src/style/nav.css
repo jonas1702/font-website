@@ -1,0 +1,31 @@
+.navigation {
+    width: 100%;
+    position: fixed;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.navigation-list {
+    width: 80%;
+    padding-right: 8vw;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation-list-item {
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: 'Montserrat-regular';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navigation-list-item:hover {
+    text-decoration: underline;
+}

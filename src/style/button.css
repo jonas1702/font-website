@@ -1,0 +1,27 @@
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 26px;
+    border-radius: 30px;
+    background-color: var(--background-color);
+    cursor: pointer;
+    transition: .1s ease;
+}
+
+.button-text {
+    font-family: 'Montserrat-regular';
+    font-size: 16px;
+    transition: inherit;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.button-wrapper:hover {
+    background-color: var(--font-color);
+
+}
+
+.button-wrapper:hover .button-text {
+    color: var(--background-color);
+}

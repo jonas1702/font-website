@@ -1,0 +1,106 @@
+@import url('./fonts.css');
+@import url('./button.css');
+@import url(./nav.css);
+
+:root {
+  --accent-color-1: #E77373;
+  --accent-color-2: #C2E773;
+  --background-color: #FBFBFB;
+  --font-color: #42494B;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  font-family: 'gaap';
+  text-align: center;
+  padding: 80px 0px;
+  color: var(--font-color);
+  order: 2;
+}
+
+.hero-heading-medium {
+  font-family: inherit;
+  color: inherit;
+  font-size: 3rem;
+}
+
+.hero-heading-small {
+  color: inherit;
+  font-size: 2rem;
+  font-family: inherit;
+}
+
+.hero-paragraph {
+  color: inherit;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.hero-color-background {
+  width: 100%;
+  background-color: var(--accent-color-2);
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-family: 'gaap';
+  padding: 40px 0px;
+  min-height: 500px;
+}
+
+.hero-heading-large {
+  font-size: 4rem;
+  font-family: inherit;
+  text-align: center;
+  color: inherit;
+}
+
+@media all and (min-width: 700px) {
+
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-info {
+    width: 50%;
+    order: -1;
+    text-align: left;
+    padding: 0px 8vw;
+  }
+
+  .hero-color-background {
+    width: 50%;
+    height: 100%;
+    padding: 0px 8vw;
+  }
+
+  .hero-heading-large {
+    font-size: 7rem;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  html {
+    font-size: 20px;
+  }
+}

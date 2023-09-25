@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'gaap';
+    src: url('../assets/gaap-bold.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../assets/Montserrat/static/Montserrat-Medium.ttf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('../assets/Montserrat/static/Montserrat-Bold.ttf') format('opentype');
+    font-style: normal;
+}
